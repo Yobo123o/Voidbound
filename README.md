@@ -1,6 +1,7 @@
 # Voidbound
 
-**Voidbound** is a dark fantasy, text-based roguelike RPG written in Python.  
+**Voidbound** is a dark fantasy, text-based roguelike RPG written in Python.
+This repository is in the very early stages of development. Core mechanics are still being prototyped and the codebase is likely to change rapidly.
 You are a soul cursed to die and return, trapped in a decaying world where memory fades, but pain persists. Each cycle brings you deeper into the truth — and closer to the void.
 
 ---
@@ -36,26 +37,31 @@ You are a soul cursed to die and return, trapped in a decaying world where memor
 - Python 3.8+
 - No external dependencies (vanilla Python)
 
-### Run the Game
+### Installation
+
+Clone the repository and install in editable mode so the `voidbound` package is available:
 
 ```bash
-python voidbound/main.py
-# or
-python -m voidbound.main
+pip install -e .
 ```
+
+### Run the Game
+
+The current proof-of-concept can be launched as a module:
+
+
 
 ---
 
-## 🧱 Project Structure (planned)
+## 🧱 Project Structure
 
 ```
-voidbound/
-├── main.py              # Game entry point
-├── world.py             # Procedural zone and event generation
-├── player.py            # Player stats, combat, inventory
-├── enemies.py           # Enemy definitions and behavior
-├── lore.py              # Game intro, NPC dialogue, item descriptions
-└── utils.py             # Helper functions and formatting
+.
+├── LICENSE
+├── README.md
+└── voidbound/
+    ├── __init__.py
+    └── __main__.py
 ```
 
 ---
