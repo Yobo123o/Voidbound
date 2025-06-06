@@ -1,33 +1,29 @@
 # Voidbound
 
-**Voidbound** is a dark fantasy, text-based roguelike RPG written in Python.  
-This repository is in the very early stages of development. Core mechanics are still being prototyped and the codebase is likely to change rapidly.  
-You are a soul cursed to die and return, trapped in a decaying world where memory fades, but pain persists. Each cycle brings you deeper into the truth — and closer to the void.
+**Voidbound** is an experimental dark fantasy roguelike written in Python. The repository currently contains a minimal code skeleton and is under heavy development. Running the package simply prints a development message while core systems are being built.
 
 ---
 
 ## 🌌 The Curse of the Voidbound
 
-> *You awaken in darkness. Again.*  
-> The stone beneath you is cold. Wet. You’ve lost count of how many times you've clawed your way out of the black.  
->  
-> The world above has crumbled. The sky is cracked. The dead walk not by magic, but by memory.  
->  
-> You are Voidbound — branded by the Sigil of Return, tethered to the last ember of a dying flame.  
-> Each death rewinds the world. But something always stays.  
->  
-> Escape is a lie. But understanding may not be.
+> *You awaken in darkness. Again.*
+> The stone beneath you is cold and wet. You've lost count of how many times you've clawed your way out of the black.
+> The world above has crumbled and the dead walk not by magic but by memory.
+> You are Voidbound, branded by the Sigil of Return. Each death rewinds the world, yet something always stays.
+> Escape is a lie. Understanding may not be.
 
 ---
 
-## 🕹️ Features
+## 🕹️ Planned Features
 
-- Turn-based combat with randomized enemy encounters  
-- Exploration, rest, and risk-reward decisions  
-- Death and rebirth mechanic (roguelike loop)  
-- Atmospheric writing and lore-rich world  
-- Custom GUI using `pygame_gui` over `pygame`  
-- Modular codebase designed for expandability  
+- Turn-based combat and random encounters
+- Exploration and risk–reward choices
+- Death and rebirth loop
+- Atmosphere-rich writing and lore
+- A GUI built with `pygame_gui`
+- Modular design for future expansion
+
+These features are not yet implemented; the project is in an early prototype phase.
 
 ---
 
@@ -48,15 +44,9 @@ cd voidbound
 pip install -r requirements.txt
 ```
 
-Optionally install in editable mode for development:
+### Run the Prototype
 
-```bash
-pip install -e .
-```
-
-### Run the Game
-
-Run the prototype (once created):
+Running the package prints a placeholder message:
 
 ```bash
 python -m voidbound
@@ -64,7 +54,7 @@ python -m voidbound
 
 ---
 
-## 🧱 Project Structure (planned)
+## 🧱 Current Project Structure
 
 ```
 .
@@ -73,15 +63,13 @@ python -m voidbound
 ├── requirements.txt
 └── voidbound/
     ├── __init__.py
-    ├── __main__.py         # Game entry point
-    ├── engine.py           # Core game loop and scene manager
-    ├── player.py           # Player stats, combat, inventory
-    ├── enemies.py          # Enemy definitions and AI
-    ├── world.py            # Zone/events/procedural logic
-    ├── ui.py               # pygame_gui integration
-    ├── audio.py            # Sound and music
-    ├── lore.py             # Dialogs, intros, item text
-    └── utils.py            # Formatting, helpers
+    ├── __main__.py      # prints "Voidbound is under development."
+    ├── main.py          # simple entry point
+    ├── enemies.py       # placeholder
+    ├── player.py        # placeholder
+    ├── world.py         # placeholder
+    ├── lore.py          # placeholder
+    └── utils.py         # placeholder
 ```
 
 ---
@@ -94,12 +82,12 @@ MIT License — free to use, modify, and build upon.
 
 ## 💡 Contributing
 
-Pull requests and ideas welcome! This is an experimental solo project with an emphasis on creativity, simplicity, and story-driven design.
+Pull requests and ideas are welcome. This is an experimental solo project with an emphasis on creativity and simplicity.
 
 ---
 
 ## 🧠 Inspired By
 
-- Dark Souls / Hollow Knight  
-- Dwarf Fortress / Cataclysm DDA  
-- Classic roguelikes and MUDs  
+- Dark Souls / Hollow Knight
+- Dwarf Fortress / Cataclysm DDA
+- Classic roguelikes and MUDs
