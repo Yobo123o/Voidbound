@@ -1,7 +1,7 @@
 # Voidbound
 
-**Voidbound** is a dark fantasy, text-based roguelike RPG written in Python.
-This repository is in the very early stages of development. Core mechanics are still being prototyped and the codebase is likely to change rapidly.
+**Voidbound** is a dark fantasy, text-based roguelike RPG written in Python.  
+This repository is in the very early stages of development. Core mechanics are still being prototyped and the codebase is likely to change rapidly.  
 You are a soul cursed to die and return, trapped in a decaying world where memory fades, but pain persists. Each cycle brings you deeper into the truth — and closer to the void.
 
 ---
@@ -26,7 +26,8 @@ You are a soul cursed to die and return, trapped in a decaying world where memor
 - Exploration, rest, and risk-reward decisions  
 - Death and rebirth mechanic (roguelike loop)  
 - Atmospheric writing and lore-rich world  
-- Easy to expand with new zones, items, and abilities  
+- Custom GUI using `pygame_gui` over `pygame`  
+- Modular codebase designed for expandability  
 
 ---
 
@@ -34,12 +35,20 @@ You are a soul cursed to die and return, trapped in a decaying world where memor
 
 ### Requirements
 
-- Python 3.8+
-- No external dependencies (vanilla Python)
+- Python **3.13+**
+- See [`requirements.txt`](./requirements.txt)
 
 ### Installation
 
-Clone the repository and install in editable mode so the `voidbound` package is available:
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/yourusername/voidbound.git
+cd voidbound
+pip install -r requirements.txt
+```
+
+Optionally install in editable mode for development:
 
 ```bash
 pip install -e .
@@ -47,21 +56,32 @@ pip install -e .
 
 ### Run the Game
 
-The current proof-of-concept can be launched as a module:
+Run the prototype (once created):
 
-
+```bash
+python -m voidbound
+```
 
 ---
 
-## 🧱 Project Structure
+## 🧱 Project Structure (planned)
 
 ```
 .
 ├── LICENSE
 ├── README.md
+├── requirements.txt
 └── voidbound/
     ├── __init__.py
-    └── __main__.py
+    ├── __main__.py         # Game entry point
+    ├── engine.py           # Core game loop and scene manager
+    ├── player.py           # Player stats, combat, inventory
+    ├── enemies.py          # Enemy definitions and AI
+    ├── world.py            # Zone/events/procedural logic
+    ├── ui.py               # pygame_gui integration
+    ├── audio.py            # Sound and music
+    ├── lore.py             # Dialogs, intros, item text
+    └── utils.py            # Formatting, helpers
 ```
 
 ---

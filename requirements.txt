@@ -1,0 +1,6 @@
+pygame>=2.5
+pygame_gui>=0.6.9
+pydub>=0.25.1
+tinydb>=4.7.1
+pyyaml>=6.0.1
+rich>=13.7.1
