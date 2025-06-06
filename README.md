@@ -39,7 +39,9 @@ You are a soul cursed to die and return, trapped in a decaying world where memor
 ### Run the Game
 
 ```bash
-python main.py
+python voidbound/main.py
+# or
+python -m voidbound.main
 ```
 
 ---
