@@ -1,6 +1,6 @@
 # Voidbound
 
-**Voidbound** is an experimental dark fantasy roguelike written in Python. The repository currently contains a minimal code skeleton and is under heavy development. Running the package simply prints a development message while core systems are being built.
+**Voidbound** is an experimental dark fantasy roguelike written in Python. The repository currently contains a minimal code skeleton and is under heavy development. Running `python -m voidbound` prints a development message, but a small text-based demo can be launched with `python -m voidbound.main`.
 
 ---
 
@@ -46,10 +46,16 @@ pip install -r requirements.txt
 
 ### Run the Prototype
 
-Running the package prints a placeholder message:
+To try the minimal text-based loop, run:
 
 ```bash
-python -m voidbound
+python -m voidbound.main
+```
+
+If you prefer to execute the script directly, run it from the repository root:
+
+```bash
+python voidbound/main.py
 ```
 
 ---
