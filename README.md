@@ -67,6 +67,7 @@ MIT License — free to use, modify, and build upon.
 ## 💡 Contributing
 
 Pull requests and ideas welcome! This is an experimental solo project with an emphasis on creativity, simplicity, and story-driven design.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the current development roadmap and ways to get involved.
 
 ---
 
