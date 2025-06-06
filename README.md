@@ -58,6 +58,12 @@ If you prefer to execute the script directly, run it from the repository root:
 python voidbound/main.py
 ```
 
+To launch the experimental graphical interface, run:
+
+```bash
+python -m voidbound.gui
+```
+
 ---
 
 ## 🧱 Current Project Structure
@@ -71,6 +77,7 @@ python voidbound/main.py
     ├── __init__.py
     ├── __main__.py      # prints "Voidbound is under development."
     ├── main.py          # simple entry point
+    ├── gui/             # pygame-based GUI module
     ├── enemies.py       # placeholder
     ├── player.py        # placeholder
     ├── world.py         # placeholder
