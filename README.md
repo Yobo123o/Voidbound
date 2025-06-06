@@ -49,9 +49,7 @@ pip install -e .
 
 The current proof-of-concept can be launched as a module:
 
-```bash
-python -m voidbound
-```
+
 
 ---
 
